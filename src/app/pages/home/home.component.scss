@@ -51,13 +51,21 @@
       flex-direction: column;
       align-items: center;
       gap: 8px;
+
+      span {
+        margin: 0;
+      }
+
+      p {
+        margin: 0;
+      }
     }
 
-    .logo-ricky {
-      width: 160px;
-      height: 160px;
-      margin: 0 32px;
-    }
+    // .logo-ricky {
+    //   width: 160px;
+    //   height: 160px;
+    //   margin: 0;
+    // }
   }
 
   .userInfo {
@@ -70,7 +78,7 @@
   .userInfo img {
     width: 100px;
     height: 100px;
-    margin: 0 32px;
+    margin: 0;
   }
 
   span {
