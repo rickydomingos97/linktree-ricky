@@ -1,0 +1,26 @@
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #000;
+    transition: all 0.3s;
+    &:hover {
+      color: #007bff;
+    }
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+
+  li {
+    list-style: none;
+  }
+}
