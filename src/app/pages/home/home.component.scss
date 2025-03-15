@@ -11,21 +11,45 @@
     margin: 0 auto;
     max-width: 600px;
     text-align: center;
-    padding: 48px 16px;
+    padding: 0px 16px;
   }
 
-  img {
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-  }
+  // header {
+  //   width: 100%;
+  //   max-width: 600px;
+  //   margin: 032px auto;
+  //   display: flex;
+  //   justify-content: space-between;
+  //   align-items: center;
+
+  //   a .logo img {
+  //     width: 40px;
+  //     height: 40px;
+  //   }
+
+  //   .about {
+  //     text-decoration: none;
+  //     font-size: 18px;
+  //     color: #71717a;
+  //     font-weight: 900;
+  //     cursor: pointer;
+  //     &:hover {
+  //       color: #101010;
+  //     }
+  //   }
+  // }
 
   .userInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 4px;
-    margin-top: 24px;
+  }
+
+  .userInfo img {
+    width: 100px;
+    height: 100px;
+    margin-top: 32px;
   }
 
   span {
@@ -35,12 +59,32 @@
   .userInfo .role {
     font-size: 14px;
     font-weight: 500;
-    margin: 0;
+    margin: 8px;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    margin: 32px 0 0 0;
+    padding: 0;
+    color: #000000;
+
+    span {
+      color: #4f4a56;
+    }
+
+    h1 {
+      margin: 8px 0;
+    }
   }
 
   h1 {
     font-family: "GellixRegular", sans-serif;
-    font-size: 32px;
+    //font-size: 28px;
+    margin: 32px 0;
+    text-align: left;
   }
 
   p {
