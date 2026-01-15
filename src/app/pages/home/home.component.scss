@@ -11,14 +11,14 @@ html {
   align-items: center;
   justify-content: space-between;
   min-height: 100vh;
-  background-color: #f5f4ee;
+  background-color: #eae8dc;
   color: #4c263f;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  //align-items: center;
   justify-content: center;
   margin: auto;
   max-width: 600px;
@@ -156,6 +156,15 @@ footer {
     margin: 8px;
   }
 
+  .social-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+  }
+
   .footer-text {
     max-width: 600px;
     width: 100%;
@@ -209,6 +218,13 @@ footer {
     padding: 24px 32px;
     font-size: 12px;
 
+    .social-section {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+    }
+
     .social {
       justify-content: center;
       margin: 12px 0;
@@ -232,11 +248,13 @@ footer {
       .footer-content {
         align-items: center;
       }
+    }
 
-      .cv-download {
-        width: 100%;
-        text-align: center;
-      }
+    .cv-download {
+      margin-top: 32px;
+      width: 100%;
+      max-width: 270px;
+      text-align: center;
     }
   }
 

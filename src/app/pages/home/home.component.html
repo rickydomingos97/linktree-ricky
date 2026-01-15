@@ -32,17 +32,19 @@
   </main>
   <footer>
     <div class="footer-text">
-      <div class="social">
-        <app-social>social works!</app-social>
+      <div class="social-section">
+        <a (click)="downloadCV()" class="cv-download">
+          Download CV
+        </a>
+        <div class="social">
+          <app-social>social works!</app-social>
+        </div>
       </div>
       <div class="footer">
         <div class="footer-content">
           <img src="assets/images/ricardo.domingos.png" alt="" width="160">
           <span>2026 Ricky Domingos - UX Designer - Worldwide</span>
         </div>
-        <a (click)="downloadCV()" class="cv-download">
-          Download CV
-        </a>
       </div>
 
     </div>
