@@ -4,144 +4,160 @@
   align-items: center;
   justify-content: space-between;
   min-height: 100vh;
+  background-color: #f5f4ee;
+  color: #4c263f;
+}
 
-  .content {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    max-width: 600px;
-    text-align: center;
-    padding: 0px 16px;
-  }
-  // header {
-  //   width: 100%;
-  //   max-width: 600px;
-  //   margin: 032px auto;
-  //   display: flex;
-  //   justify-content: space-between;
-  //   align-items: center;
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 600px;
+  text-align: center;
+  padding: 0px 16px;
+}
+// header {
+//   width: 100%;
+//   max-width: 600px;
+//   margin: 032px auto;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
 
-  //   a .logo img {
-  //     width: 40px;
-  //     height: 40px;
-  //   }
+//   a .logo img {
+//     width: 40px;
+//     height: 40px;
+//   }
 
-  //   .about {
-  //     text-decoration: none;
-  //     font-size: 18px;
-  //     color: #71717a;
-  //     font-weight: 900;
-  //     cursor: pointer;
-  //     &:hover {
-  //       color: #101010;
-  //     }
-  //   }
-  // }
-  .hero-container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    margin: 32px 0;
+//   .about {
+//     text-decoration: none;
+//     font-size: 18px;
+//     color: #71717a;
+//     font-weight: 900;
+//     cursor: pointer;
+//     &:hover {
+//       color: #101010;
+//     }
+//   }
+// }
+.hero-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 32px 0;
 
-    .profile {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 8px;
-
-      span {
-        margin: 0;
-      }
-
-      p {
-        margin: 0;
-      }
-    }
-
-    // .logo-ricky {
-    //   width: 160px;
-    //   height: 160px;
-    //   margin: 0;
-    // }
-  }
-
-  .userInfo {
+  .profile {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4px;
-  }
-
-  .userInfo img {
-    width: 100px;
-    height: 100px;
-    margin: 0;
-  }
-
-  span {
-    font-size: 16px;
-  }
-
-  .userInfo .role {
-    font-size: 14px;
-    font-weight: 500;
-    margin: 8px;
-  }
-
-  .hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    text-align: left;
-    margin: 32px 0 0 0;
-    padding: 0;
-    color: #000000;
+    gap: 8px;
 
     span {
-      color: #4f4a56;
+      margin: 0;
     }
 
-    h1 {
-      margin: 8px 0;
+    p {
+      margin: 0;
     }
+  }
+
+  // .logo-ricky {
+  //   width: 160px;
+  //   height: 160px;
+  //   margin: 0;
+  // }
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.userInfo img {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+}
+
+span {
+  font-size: 16px;
+}
+
+.userInfo .role {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 8px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  margin: 32px 0 0 0;
+  padding: 0;
+  color: #000000;
+
+  span {
+    color: #4f4a56;
   }
 
   h1 {
-    font-family: "GellixRegular", sans-serif;
-    //font-size: 28px;
-    margin: 32px 0;
-    text-align: left;
+    margin: 8px 0;
   }
+}
 
-  p {
-    font-size: 16px;
-    font-weight: 500;
-    color: #71717a;
-  }
+h1 {
+  font-family: "GellixRegular", sans-serif;
+  //font-size: 28px;
+  margin: 32px 0;
+  text-align: left;
+}
 
-  footer {
-    margin-top: 80px;
+p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #71717a;
+}
+
+footer {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #0f0f0f;
+  color: #a2a2a2;
+  padding: 40px 0;
+  font-size: 14px;
+
+  .social {
     display: flex;
+    justify-content: right;
     align-items: center;
-    justify-content: center;
+    margin: 8px;
+  }
+
+  .footer-text {
+    max-width: 600px;
     width: 100%;
-    background: #0F0F0F;
-    color: #A2A2A2;
-    padding: 40px 0;
-    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+    //justify-content: space-between;
+    gap: 80px;
+  }
 
-    .footer-text {
-
-      max-width: 600px;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 80px;
-      padding: 0 32px;
-    }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
   }
 }
