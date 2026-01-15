@@ -9,4 +9,11 @@ import { AboutMeComponent } from '../../components/about-me/about-me.component';
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
-export class HomeComponent {}
+export class HomeComponent {
+  downloadCV(): void {
+    const link = document.createElement('a');
+    link.href = 'assets/cv/Ricky_Domingos_CV.pdf';
+    link.download = 'Ricky_Domingos_CV.pdf';
+    link.click();
+  }
+}

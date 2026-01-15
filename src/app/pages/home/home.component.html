@@ -36,9 +36,13 @@
         <app-social>social works!</app-social>
       </div>
       <div class="footer">
-        <img src="assets/images/ricardo.domingos.png" alt="" width="160">
-        2026 Ricky Domingos - UX Designer - Worldwide
-        <!-- <img src="assets/images/arrow.svg" alt=""> -->
+        <div class="footer-content">
+          <img src="assets/images/ricardo.domingos.png" alt="" width="160">
+          <span>2026 Ricky Domingos - UX Designer - Worldwide</span>
+        </div>
+        <a (click)="downloadCV()" class="cv-download">
+          Download CV
+        </a>
       </div>
 
     </div>
