@@ -1,0 +1,22 @@
+{
+  "HOME": {
+    "UX_DESIGN": "UX DESIGN",
+    "HERO_TEXT": "Creando experiencias únicas para productos inolvidables.",
+    "DOWNLOAD_CV": "Descargar CV",
+    "FOOTER_TEXT": "2026 Ricky Domingos - UX Designer - Worldwide",
+    "MADE_WITH": "Hecho con ❤️ por Angular",
+    "LANGUAGE": "Idioma"
+  },
+  "ABOUT_ME": {
+    "TITLE": "SOBRE MÍ",
+    "DESCRIPTION": "Un diseñador obsesionado con aprender cosas nuevas y Cubos de Rubik.",
+    "FULL_DESCRIPTION": "Graduado en Desarrollo de Software con habilidades en desarrollo full-stack en múltiples tecnologías. Actualmente ayudando a clientes a crear productos excepcionales con prácticas UX de vanguardia."
+  },
+  "LINKS": {
+    "CASES": "CASES",
+    "CHECK_WORK": "Mira algunos de mis trabajos",
+    "UI_DESIGN": "UI Design:",
+    "UX_CASE": "UX Case:",
+    "UI_CASE": "UI Case:"
+  }
+}

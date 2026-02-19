@@ -21,11 +21,10 @@
       <p class="role">UX DESIGNER</p> -->
 
       <div class="hero">
-        <span>UX DESIGN</span>
-        <h1>Crafting unique experiences for unforgettable products.</h1>
+        <span>{{ 'HOME.UX_DESIGN' | translate }}</span>
+        <h1>{{ 'HOME.HERO_TEXT' | translate }}</h1>
       </div>
-
-    </div>
+    </div> <!-- userInfo -->
     <app-about-me>about me works!</app-about-me>
     <app-links>links works!</app-links>
     <!-- <app-social>social works!</app-social> -->
@@ -34,7 +33,7 @@
     <div class="footer-text">
       <div class="social-section">
         <a (click)="downloadCV()" class="cv-download">
-          Download CV
+          {{ 'HOME.DOWNLOAD_CV' | translate }}
         </a>
         <div class="social">
           <app-social>social works!</app-social>
@@ -43,11 +42,17 @@
       <div class="footer">
         <div class="footer-content">
           <img src="assets/images/ricky.domingos.svg" alt="" width="160">
-          <span>2026 Ricky Domingos - UX Designer - Worldwide</span>
+          <span>{{ 'HOME.FOOTER_TEXT' | translate }}</span>
           <div class="footerlogo">
             <img src="assets/images/ricky.domingos-footer.svg" alt="" width="1200px">
           </div>
-          <span>Made with ❤️ by Angular</span>
+          <span>{{ 'HOME.MADE_WITH' | translate }}</span>
+          <div class="lang-selector-footer">
+            <label for="footer-lang">{{ 'HOME.LANGUAGE' | translate }}</label>
+            <select id="footer-lang" [(ngModel)]="currentLang" (ngModelChange)="changeLang($event)">
+              <option *ngFor="let lang of langs" [value]="lang">{{ lang | uppercase }}</option>
+            </select>
+          </div>
         </div>
       </div>
     </div>
