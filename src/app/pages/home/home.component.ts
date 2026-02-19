@@ -8,7 +8,14 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-home',
-  imports: [LinksComponent, SocialComponent, AboutMeComponent, TranslateModule, CommonModule, FormsModule],
+  imports: [
+    LinksComponent,
+    SocialComponent,
+    AboutMeComponent,
+    TranslateModule,
+    CommonModule,
+    FormsModule,
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })

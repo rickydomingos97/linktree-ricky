@@ -5,8 +5,6 @@ import { TranslateModule } from '@ngx-translate/core';
   selector: 'app-links',
   imports: [TranslateModule],
   templateUrl: './links.component.html',
-  styleUrl: './links.component.scss'
+  styleUrl: './links.component.scss',
 })
-export class LinksComponent {
-
-}
+export class LinksComponent {}

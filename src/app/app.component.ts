@@ -7,7 +7,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-root',
   imports: [RouterOutlet, TranslateModule, CommonModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
   title = 'linktree-ricky';

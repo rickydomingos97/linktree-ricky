@@ -1,4 +1,8 @@
-import { ApplicationConfig, provideZoneChangeDetection, importProvidersFrom } from '@angular/core';
+import {
+  ApplicationConfig,
+  provideZoneChangeDetection,
+  importProvidersFrom,
+} from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -12,14 +16,11 @@ export const appConfig: ApplicationConfig = {
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes),
     // bring in HttpClient and translate dependencies
-    importProvidersFrom(
-      HttpClientModule,
-      TranslateModule.forRoot()
-    ),
+    importProvidersFrom(HttpClientModule, TranslateModule.forRoot()),
     // configure loader with asset path and file suffix
     provideTranslateHttpLoader({
       prefix: './assets/i18n/',
-      suffix: '.json'
-    })
-  ]
+      suffix: '.json',
+    }),
+  ],
 };
